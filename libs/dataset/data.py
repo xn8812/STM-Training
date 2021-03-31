@@ -16,7 +16,7 @@ from ..utils.logger import getLogger
 
 __DATA_CONTAINER = {}
 
-ROOT = '/home/ubuntu/nxu-vos/STM-Training'
+ROOT = '/home/ubuntu/nxu-vos/STM-Training/datasets'
 MAX_TRAINING_OBJ = 5
 MAX_TRAINING_SKIP = 100
 

@@ -33,6 +33,7 @@ import copy
 
 from progress.bar import Bar
 from collections import OrderedDict
+import pdb
 
 cv2.setNumThreads(0)
 cv2.ocl.setUseOpenCL(False)
@@ -270,6 +271,8 @@ def train(trainloader, model, criterion, optimizer, epoch, use_cuda, iter_size, 
 
     bar = Bar('Processing', max=len(trainloader))
     optimizer.zero_grad()
+
+    pdb.set_trace()
 
     for batch_idx, data in enumerate(trainloader):
 
